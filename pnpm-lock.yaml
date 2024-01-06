@@ -5,8 +5,8 @@ specifiers:
   '@pinecone-database/pinecone': ^0.1.6
   '@types/md5': ^2.3.2
   '@types/node': 20.5.9
-  '@types/react': 18.2.24
-  '@types/react-dom': 18.2.8
+  '@types/react': 18.2.47
+  '@types/react-dom': 18.2.18
   ai: ^2.1.16
   cheerio: ^1.0.0-rc.12
   eslint: 8.44.0
@@ -30,8 +30,8 @@ dependencies:
   '@pinecone-database/doc-splitter': 0.0.1
   '@pinecone-database/pinecone': 0.1.6
   '@types/node': 20.5.9
-  '@types/react': 18.2.24
-  '@types/react-dom': 18.2.8
+  '@types/react': 18.2.47
+  '@types/react-dom': 18.2.18
   ai: 2.1.16_ajqlq65zr7n52pgdnqvqqqn25i
   cheerio: 1.0.0-rc.12
   eslint: 8.44.0
@@ -43,7 +43,7 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.10.1_react@18.2.0
-  react-markdown: 9.0.0_qplb6sntkpqlhms5ct4t6n64ve
+  react-markdown: 9.0.0_fmir3ej6t2wp2ucb2nexek7zda
   sswr: 2.0.0_svelte@3.59.2
   svelte: 3.59.2
   tailwindcss: 3.3.2
@@ -377,14 +377,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.2.8:
-    resolution: {integrity: sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==}
+  /@types/react-dom/18.2.18:
+    resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.24
+      '@types/react': 18.2.47
     dev: false
 
-  /@types/react/18.2.24:
-    resolution: {integrity: sha512-Ee0Jt4sbJxMu1iDcetZEIKQr99J1Zfb6D4F3qfUWoR1JpInkY1Wdg4WwCyBjL257D0+jGqSl1twBjV8iCaC0Aw==}
+  /@types/react/18.2.47:
+    resolution: {integrity: sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2781,14 +2781,14 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
 
-  /react-markdown/9.0.0_qplb6sntkpqlhms5ct4t6n64ve:
+  /react-markdown/9.0.0_fmir3ej6t2wp2ucb2nexek7zda:
     resolution: {integrity: sha512-v6yNf3AB8GfJ8lCpUvzxAXKxgsHpdmWPlcVRQ6Nocsezp255E/IDrF31kLQsPJeB/cKto/geUwjU36wH784FCA==}
     peerDependencies:
       '@types/react': '>=18'
       react: '>=18'
     dependencies:
       '@types/hast': 3.0.1
-      '@types/react': 18.2.24
+      '@types/react': 18.2.47
       devlop: 1.1.0
       hast-util-to-jsx-runtime: 2.2.0
       html-url-attributes: 3.0.0
